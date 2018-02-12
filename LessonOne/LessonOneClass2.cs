@@ -8,6 +8,6 @@ namespace LessonOne
 {
     class LessonOneClass2
     {
-        public string NazwaKlasy { get; set; }
+        public string NazwaKlasy { get; set; } //utworzona nowa klasa która może przyjąć wartość i ją zachować
     }
 }
