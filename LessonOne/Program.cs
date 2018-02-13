@@ -30,11 +30,11 @@ namespace LessonOne
             LessonOneClass2 obiektDrugi = new LessonOneClass2();
             obiektDrugi.NazwaKlasy = "jeden"; //określenie parametru utworzonego obiektu
             obiektPierwszy.NazwaKlasy = "dwa";
-            
+
             Console.WriteLine(obiektPierwszy.NazwaKlasy);
             Console.WriteLine(obiektDrugi.NazwaKlasy); //wyrzucenie do konsoli przywołanego wcześniej obiektu
-            //którego wcześniej określiliśmy parametr
-            
+                                                       //którego wcześniej określiliśmy parametr
+
 
             obiektPierwszy.NazwaKlasy = "zmieniony";
             Console.WriteLine(obiektPierwszy.NazwaKlasy);
@@ -53,7 +53,8 @@ namespace LessonOne
             {
                 Console.WriteLine("ciepło");
             }
-            else if (temperatura == 21) {
+            else if (temperatura == 21)
+            {
                 Console.WriteLine("jest spoko");
             }
             else
@@ -65,27 +66,33 @@ namespace LessonOne
 
             int wartosc = 11;
             switch (wartosc) //pętla switch
-            { case 10: Console.WriteLine("wartość jest zła: " + wartosc);
+            {
+                case 10:
+                    Console.WriteLine("wartość jest zła: " + wartosc);
                     break;
-                case 11: Console.WriteLine("wartość trafiona: " + wartosc);
+                case 11:
+                    Console.WriteLine("wartość trafiona: " + wartosc);
                     break;
             }
-            
-            for (int i = 0; i < 9; i++) { //pętla for
+
+            for (int i = 0; i < 9; i++)
+            { //pętla for
                 Console.WriteLine(i);
             }
 
-            int cyferka = 0; 
+            int cyferka = 0;
             List<int> listaInt = new List<int>(); //utworzenie listy
             listaInt.Add(cyferka + 1);
             listaInt.Add(cyferka + 2);
             listaInt.Add(cyferka + 3);
-            foreach (int name in listaInt) { //wykorzystanie pętli foreach celem wyrzucenia danych na konsolę
+            foreach (int name in listaInt)
+            { //wykorzystanie pętli foreach celem wyrzucenia danych na konsolę
                 Console.WriteLine("cyferka: " + name);
             }
 
             int vartWhile = 1;
-            while (vartWhile < 5) { //zastosowanie pętli while
+            while (vartWhile < 5)
+            { //zastosowanie pętli while
                 Console.WriteLine("vartość: " + vartWhile);
                 vartWhile++;
             }
@@ -96,8 +103,6 @@ namespace LessonOne
                 Console.WriteLine("numerek: " + vartDoPetli);
                 vartDoPetli++;
             } while (vartDoPetli < 4);
-            
-
 
             Console.ReadKey();
         }
