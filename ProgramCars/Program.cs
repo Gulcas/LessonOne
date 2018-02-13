@@ -10,5 +10,6 @@ namespace ProgramCars
     {
         static void Main(string[] args)
         {
+        }
     }
 }
