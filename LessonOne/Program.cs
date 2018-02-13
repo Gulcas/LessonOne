@@ -1,4 +1,5 @@
-﻿using System;
+﻿using ProgramCars;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -41,6 +42,8 @@ namespace LessonOne
 
             Console.WriteLine("obiekt pierwszy " + obiektPierwszy.NazwaKlasy); //wyrzenie na konsolę przekazanej wcześniej wartości
             Console.WriteLine("obiekt drugi " + obiektDrugi.NazwaKlasy);
+
+            Bus bus = new Bus(); //przywołanie klasy z innego projektu dodając referencje do niego-->most łączący oba projekty
 
             Console.ReadKey();
 

@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{ACB42534-1EC4-410A-AF37-F2726CEEA567}</ProjectGuid>
+    <ProjectGuid>{B6507AF7-D157-4F9F-B93A-5378BCE7EA37}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>LessonOne</RootNamespace>
-    <AssemblyName>LessonOne</AssemblyName>
+    <RootNamespace>ProgramCars</RootNamespace>
+    <AssemblyName>ProgramCars</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -42,19 +42,13 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Bus.cs" />
     <Compile Include="Car.cs" />
-    <Compile Include="LessonOneClass2.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\ProgramCars\ProgramCars.csproj">
-      <Project>{b6507af7-d157-4f9f-b93a-5378bce7ea37}</Project>
-      <Name>ProgramCars</Name>
-    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
