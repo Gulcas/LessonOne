@@ -9,6 +9,5 @@ namespace ProgramCars
 
     class Car
     {
-
     }
 }
