@@ -49,6 +49,14 @@ namespace ProgramCars //application name
             else
                 message = "to small number";
             Console.WriteLine(message);
+
+            Console.WriteLine("podaj numer nagrody");
+            string userValue = Console.ReadLine();
+            string newMessage = (userValue == "1") ? "1:Fura" : "2:komóra"; //jeżeli user wpisze value 1, newMessage będzie równe pierwszej 
+            //wartości po "?", jeżeli wartość będzie false (inna) to do newMessage zostanie przypisana druga wartość po ":"
+            //Console.Write("wygrałeś: );
+            //Console.Write(newMessage);
+            Console.WriteLine("wybrałeś liczbę {0}, więc wygrałeś: {1} .",userValue, newMessage); //krótszy zapis dwóch powyższych linijek kodu
             Console.ReadLine();
 
 
