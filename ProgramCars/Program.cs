@@ -14,7 +14,7 @@ namespace ProgramCars //application name
             int x; //deklaracja wartości zmiennej x
             /* komentarz wieloliniowy
              */
-            x = 7;
+            x = 7;//break point is disable now
             int y = x + 3;
             Console.WriteLine(y);
             Console.WriteLine("Let's find out what is your name.");
