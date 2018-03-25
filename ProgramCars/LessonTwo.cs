@@ -51,9 +51,9 @@ namespace ProgramCars
                 Console.WriteLine(num);
             }
 
-            string zig = "Rafał " + 
+            string stringWyraz = "Rafał " +
                 "Granszewski";
-            char[] literki = zig.ToCharArray(); //utworzenie listy pojedyńczych znaków z pośród wcześniej określonego stringa
+            char[] literki = stringWyraz.ToCharArray(); //utworzenie listy pojedyńczych znaków z pośród wcześniej określonego stringa
             Array.Reverse(literki); //to polecenie odwraca znaki z wcześniejszej listy, odwraca ich kolejność pierwsza staje się ostatnią i odwrotnie
 
             foreach (char zigLiterki in literki) //wykorzystująć pętlę foreach wyrzucam na konsolę wszystkie znaki

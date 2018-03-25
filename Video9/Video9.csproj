@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{B6507AF7-D157-4F9F-B93A-5378BCE7EA37}</ProjectGuid>
+    <ProjectGuid>{CF3ABA51-571F-43E2-BE7E-48D457AA9A73}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>ProgramCars</RootNamespace>
-    <AssemblyName>ProgramCars</AssemblyName>
+    <RootNamespace>Video9</RootNamespace>
+    <AssemblyName>Video9</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -42,10 +42,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Bus.cs" />
-    <Compile Include="Car.cs" />
-    <Compile Include="LessonTwo.cs" />
-    <Compile Include="Video8.cs" />
+    <Compile Include="Video9.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

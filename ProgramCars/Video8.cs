@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ProgramCars //application name
 {
-    class Program //class
+    class Video8 //class
     {
         static void Main(string[] args)     //code block = metod
         {
@@ -16,8 +16,9 @@ namespace ProgramCars //application name
             Console.WriteLine("Let's know each other.");
             int x; //deklaracja wartości zmiennej x
             x = 7;
-            int y = x + 3;
-            Console.WriteLine(y);
+            int y = x + 3; //to jest STATEMENT (z angielskiego wyrażenie)
+            //operatory są stałe w C# i trzeba je zapamiętać, to np int, string
+            Console.WriteLine(y); //klasa Console
             Console.WriteLine("Let's find out what is your name.");
             string myName; //utworzony string --> korzystając z CTRL+. można zmienić nazwy wszystkich tych zmiennych
             Console.Write("Type your surname: ");
@@ -54,12 +55,12 @@ namespace ProgramCars //application name
 
             Console.WriteLine("podaj numer nagrody, a są dwie do wyboru");
             string userValue = Console.ReadLine();
-            string newMessage = (userValue == "1") ? "1:Fura" : "2:komóra"; //jeżeli user wpisze value 1, newMessage będzie równe pierwszej 
+            string newMessage = (userValue == "1") ? "1:Fura" : "2:komóra"; //jeżeli user wpisze value 1, newMessage będzie równe pierwszej (będzie TRUE)
             //wartości po "?", jeżeli wartość będzie false (inna) to do newMessage zostanie przypisana druga wartość po ":"
             //Console.Write("wygrałeś: );
             //Console.Write(newMessage);
             Console.WriteLine("wybrałeś liczbę {0}, więc wygrałeś: {1} .", userValue, newMessage); //krótszy zapis dwóch powyższych linijek kodu
-            Console.ReadLine();
+            Console.ReadLine(); //klasa Console
 
 
 
