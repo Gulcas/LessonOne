@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Video9
 {
-    class Video9
+    class Video9 //na tym video poruszany jest też temat debugera VisualStudio
     {
         static void Main(string[] args)
         {
@@ -15,7 +15,13 @@ namespace Video9
                 czyli COUNTER; CONDITION; INCREMENENTER
                 */
             {
-                Console.WriteLine(i);
+                Console.WriteLine(i); //w ten sposób z zastosowaniem pętli for na konsolę zostaną wyrzucone wszystkie liczy 1,2,3...
+                if ( i == 7)
+                {
+                    Console.WriteLine("Znaleziono liczbę {0}", i); //przy okazji trwania pętli for odliczającej od 1 do 10, sprawdzane jest wyrażnie if. 
+                    //wyrzucając na konsolę zdanie można użyć zmiennej np int i, wstawiając ją po przecinku.
+                    break; //po poprawnym wykonaniu bloku kodu wyrażenia if wychodzimy z pętli for.
+                }
             }
             Console.ReadLine();
         }
