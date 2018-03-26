@@ -11,7 +11,7 @@ namespace ProgramCars //application name
         static void Main(string[] args)     //code block = metod
         {
             /*komentarz
-             * wielolinijkowy
+             wielolinijkowy
              */
             Console.WriteLine("Let's know each other.");
             int x; //deklaracja wartości zmiennej x
@@ -19,7 +19,7 @@ namespace ProgramCars //application name
             int y = x + 3; //to jest STATEMENT (z angielskiego wyrażenie)
             //operatory są stałe w C# i trzeba je zapamiętać, to np int, string
             Console.WriteLine(y); //klasa Console
-            Console.WriteLine("Let's find out what is your name.");
+            Console.WriteLine("Let's find out who you are.");
             string myName; //utworzony string --> korzystając z CTRL+. można zmienić nazwy wszystkich tych zmiennych
             Console.Write("Type your surname: ");
             string mySurname = Console.ReadLine(); //skrócony zapis kodu wyłapującego dane od usera
@@ -29,10 +29,10 @@ namespace ProgramCars //application name
             {
                 myName = Console.ReadLine(); //ten string został zadeklarowany wcześniej, tu tylko wyłapuje wpis od usera
 
-                if (myName == "Rafal")
+                if (myName == "Rafal" || myName == "rafal")
                 {
                     Console.WriteLine("Hi, " + myName + " " + mySurname);
-                    break;
+                    break; //break w tym miejscu powoduje że wychodzę z pętli
                 }
                 else
                 {
@@ -44,13 +44,13 @@ namespace ProgramCars //application name
             int lottery = Convert.ToInt32(Console.ReadLine()); //wyłapanie int od usera, wyłapana linijka jest od razu konwertowana na int
             string message;
             if (lottery == 1) //nie ma konieczności stosowania {} jeżeli wykonujemy tylko jedną linijkę kodu
-                message = "yes it's 1 " + 1 + lottery;
+                message = "yes it's 1 " + 11 + lottery;
             else if (lottery > 1)
-                message = "number is to high " + 22 + lottery;
+                message = "to high mate " + 22 + " " + lottery;
             else if (lottery < 1)
-                message = "to small number " + 33 + lottery;
+                message = "to small mate " + 33 + " " + lottery;
             else
-                message = "nie trafiłeś kolo " + 44 + lottery;
+                message = "wrong choice pal " + 44 + " " + lottery;
             Console.WriteLine(message);
 
             Console.WriteLine("podaj numer nagrody, a są dwie do wyboru");
