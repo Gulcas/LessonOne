@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Video10", "Video10\Video10.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Video11", "Video11\Video11.csproj", "{E3B98892-4A73-41C2-AB8E-33E845042FCA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Video12", "ConsoleApp1\Video12.csproj", "{97468D92-2D90-4A74-BB82-65E1AFA3924A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{E3B98892-4A73-41C2-AB8E-33E845042FCA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E3B98892-4A73-41C2-AB8E-33E845042FCA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E3B98892-4A73-41C2-AB8E-33E845042FCA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{97468D92-2D90-4A74-BB82-65E1AFA3924A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{97468D92-2D90-4A74-BB82-65E1AFA3924A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{97468D92-2D90-4A74-BB82-65E1AFA3924A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{97468D92-2D90-4A74-BB82-65E1AFA3924A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
