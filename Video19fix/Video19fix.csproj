@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Video19A\Video19A.csproj" />
+    <ProjectReference Include="..\Video19\Video19.csproj" />
+  </ItemGroup>
+
+</Project>
