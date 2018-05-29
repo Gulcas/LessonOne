@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{F780644F-A09E-4088-AECA-1A0BF0580F6A}</ProjectGuid>
+    <ProjectGuid>{A75FD4A0-211D-4DE1-A64D-A7106DC1C775}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Video19A</RootNamespace>
-    <AssemblyName>Video19A</AssemblyName>
+    <RootNamespace>Video19ScrapClient</RootNamespace>
+    <AssemblyName>Video19ScrapClient</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -42,16 +42,16 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Video19A.cs" />
+    <Compile Include="Video19ScrapClient.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Video19fix\Video19fix.csproj">
-      <Project>{4afa17d7-948e-4eb2-9256-4100460a58d4}</Project>
-      <Name>Video19fix</Name>
+    <ProjectReference Include="..\Video19ScrapeLibary\Video19ScrapLibary.csproj">
+      <Project>{6be7f8b8-af5f-4e1a-b252-1ceb28419ea3}</Project>
+      <Name>Video19ScrapLibary</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

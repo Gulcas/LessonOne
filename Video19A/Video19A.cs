@@ -7,7 +7,7 @@ using Video19fix; //odwołanie do utworzonej klasy którą będę wykorzystywał
 
 namespace Video19A
 {
-    class Video19
+    class Video19A
     {
         static void Main(string[] args) //aby dodać referencję do innej klasy-> solution explorer-> references-> ppm-> add ref-> projects...
         {
